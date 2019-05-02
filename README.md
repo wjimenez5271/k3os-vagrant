@@ -1,4 +1,4 @@
-# K3os on Vagrant
+# k3os on Vagrant
 
 ### Purpose
 For testing and experimentation with [k3os](https://github.com/rancher/k3os) in your local environment. Quickly spin up k3os virtual machines 
