@@ -26,6 +26,8 @@ cd ../
 vagrant up
 ```
 
+You can then login to the box using `vagrant ssh`. See [Vagrant Docs](https://www.vagrantup.com/docs/index.html) for more details on how to use Vagrant
+
 ### Notes
 Folder sync currently not supported. You can also create your own `Vagrantfile` just note the addition of 
 `config.vm.guest = "linux"` to tell it Vagrant which OS to expect and  
