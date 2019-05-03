@@ -6,7 +6,7 @@ using [Vagrant](https://www.vagrantup.com/) and Virtualbox
 
 ### Super Quick Start
 
-Use the prebuit image provided through Vagrant Cloud by running from the root of this repo (should use the included `Vagrantfile`)
+Use the [prebuit image](https://app.vagrantup.com/wjimenez5271/boxes/k3os) provided through Vagrant Cloud by running from the root of this repo (should use the included `Vagrantfile`)
 
 ```
 vagrant up
