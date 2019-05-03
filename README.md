@@ -10,14 +10,12 @@ Use the prebuit image provided through Vagrant Cloud by running from the root of
 
 ```
 vagrant up
-
 ```
 
 Then:
 
 ```
 vagrant ssh
-
 ```
 
 ### Quick Start
