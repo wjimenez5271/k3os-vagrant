@@ -7,7 +7,8 @@
   "builders": [{
     "type": "virtualbox-iso",
     "boot_wait": "40s",
-    "boot_command": ["rancher","<enter>","wget --no-check-certificate https://raw.githubusercontent.com/wjimenez5271/k3os-vagrant/master/cloud-config.yml","<enter>","sudo os-config","<enter>","1","<enter>","y","<enter>","/home/rancher/cloud-config.yml","<enter>","y","<enter>"],
+    "boot_command": ["rancher","<enter>","sudo k3os install","<enter>","1","<enter>","y","<enter>","http://{{ .HTTPIP }}:{{ .HTTPPort }}/cloud-config.yml","<enter>","y","<enter>"],
+    "http_directory": ".",
     "guest_os_type": "Linux_64",
     "iso_url": "{{user `iso_url`}}",
     "iso_checksum": "{{user `iso_checksum`}}",
