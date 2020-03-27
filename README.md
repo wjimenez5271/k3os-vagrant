@@ -26,8 +26,7 @@ vagrant ssh
 1. Build vagrant box image using [Packer](https://www.packer.io/): 
 
 ```
-cd packer 
-packer build vagrant.json
+packer build packer/vagrant.json
 ```
 
 2. Import vagrant box image into your local Vagrant install: 
