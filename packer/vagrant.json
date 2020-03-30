@@ -27,7 +27,7 @@
     {
       "type": "shell",
       "execute_command": "{{ .Vars }} sudo -E sh '{{ .Path }}'",
-      "inline": ["echo hello world"]
+      "script": "create_vagrant_user.sh"
     }
   ],
   "post-processors": [ 
