@@ -1,0 +1,5 @@
+packer_cache
+output-virtualbox-iso
+packer_virtualbox-iso_virtualbox.box
+.DS_Store
+*.swp
