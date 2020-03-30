@@ -23,13 +23,6 @@
     "format":"ova"
 
   }],
-  "provisioners":[
-    {
-      "type": "shell",
-      "execute_command": "{{ .Vars }} sudo -E sh '{{ .Path }}'",
-      "script": "create_vagrant_user.sh"
-    }
-  ],
   "post-processors": [ 
     "vagrant"]
 }
