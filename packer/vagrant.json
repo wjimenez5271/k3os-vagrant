@@ -1,8 +1,8 @@
 {
   "variables": {
     "password": "rancher",
-    "iso_url": "https://github.com/rancher/k3os/releases/download/v0.10.0/k3os-amd64.iso",
-    "iso_checksum": "58ef0d1996c91c60e93d0c48e6e963f55a7f4149699984d2b6900d3e1356a69a"
+    "iso_url": "https://github.com/rancher/k3os/releases/download/v0.10.1/k3os-amd64.iso",
+    "iso_checksum": "69a9a93d12048e122c9c02a2277a7940f25d3163e64030068b5e0ceda770e1bf"
   },
   "builders": [{
     "type": "virtualbox-iso",
