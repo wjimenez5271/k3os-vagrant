@@ -32,7 +32,7 @@ packer build packer/vagrant.json
 2. Import vagrant box image into your local Vagrant install: 
 
 ```
-vagrant box add packer_virtualbox-iso_virtualbox.box --name k3os
+vagrant box add metadata.json
 ```
 
 3. Edit the provided `Vagrantfile` in the root of this repo to reference the name of your image (in this example `k3os`)
