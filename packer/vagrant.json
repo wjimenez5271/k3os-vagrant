@@ -1,8 +1,8 @@
 {
   "variables": {
     "password": "rancher",
-    "iso_url": "https://github.com/rancher/k3os/releases/download/v0.9.1/k3os-amd64.iso",
-    "iso_checksum": "d445b7a4333e3f65843d0b9f5b094f58"
+    "iso_url": "https://github.com/rancher/k3os/releases/download/v0.10.1/k3os-amd64.iso",
+    "iso_checksum": "69a9a93d12048e122c9c02a2277a7940f25d3163e64030068b5e0ceda770e1bf"
   },
   "builders": [{
     "type": "virtualbox-iso",
@@ -12,7 +12,7 @@
     "guest_os_type": "Linux_64",
     "iso_url": "{{user `iso_url`}}",
     "iso_checksum": "{{user `iso_checksum`}}",
-    "iso_checksum_type": "md5",
+    "iso_checksum_type": "sha256",
     "ssh_username": "rancher",
     "ssh_keypair_name": "",
     "ssh_private_key_file": "packer_rsa",

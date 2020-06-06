@@ -1,0 +1,17 @@
+{
+    "provider":"virtualbox",
+    "name": "k3os",
+    "description": "k3os",
+    "versions": [
+        {
+            "version": "0.10.1",
+            "providers": [
+                {
+                    "name": "virtualbox",
+                    "url": "packer_virtualbox-iso_virtualbox.box"
+                }
+            ]
+
+        }
+    ]
+}
