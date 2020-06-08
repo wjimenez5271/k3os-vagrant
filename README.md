@@ -56,3 +56,7 @@ Folder sync currently not supported. You can also create your own `Vagrantfile` 
 
 ### Questions/Feedback
 Send me an email or find me on the [Rancher community slack](https://slack.rancher.io/), my username is `william`
+
+### Similar project
+
+https://github.com/cwebd/k3os-vagrant
