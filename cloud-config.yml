@@ -1,6 +1,7 @@
 run_cmd:
 # Duplicate rancher as vagrant user to let ssh the system with vagrant login
 - "sudo sed -e '/^rancher/p' -e 's/^rancher/vagrant/' -i /etc/passwd"
+- "sudo sed -e '/^rancher/p' -e 's/^rancher/vagrant/' -i /etc/group"
 ssh_authorized_keys:
 - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCm4mvO91LnMIEusfofrsICXdh3eirAuA/z+YX6CDNLuL0O7tZvaCC6g8J2F5bGCTB7qsAzTamDC1p9i6vJJKvzOvkpYiLrugI0f59EERBxudGUw6hsBaDaFgMMH+UQdlg3HKSA34uXEgIzo0HgPCVjw1IT9yLiBRXcb55CKi0l9fQbreC4DDUKl/VX+CVtw2Z8cUx+IxbYet0ehpS6dXqsDoYpSRayrNgSD69Ty+DjINgvzKHog6PMtxC+pghPwztx0GM3fITOkQC9lZfrFxmRfoyWyHcASr9KPBmtPPfKyyQ3SWQAjQ8rEV13i0T4WEUCMqY26PBUZwC5qE5YUyGT
 # Vagrant key, from https://raw.github.com/mitchellh/vagrant/master/keys/vagrant.pub
