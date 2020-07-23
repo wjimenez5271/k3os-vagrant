@@ -1,5 +1,18 @@
 # k3os on Vagrant
 
+# This project has moved!
+The code for this project is now being maintained in the official Rancher repository. Please use this ongoing: https://github.com/rancher/k3os/tree/master/package/packer/vagrant
+
+
+Thank You!
+
+
+
+
+-----
+
+
+
 ### Purpose
 For testing and experimentation with [k3os](https://github.com/rancher/k3os) in your local environment. Quickly spin up k3os virtual machines 
 using [Vagrant](https://www.vagrantup.com/) and Virtualbox
